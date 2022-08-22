@@ -1,0 +1,39 @@
+.ProductCard_wrapper {
+  background-color: rgb(232, 232, 232);
+  width: 30%;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 0 auto;
+  word-wrap: break-word;
+}
+.ProductCard_img {
+  object-fit: cover;
+  flex-shrink: 1;
+  width: 100%;
+  height: 281px;
+  margin-bottom: 20px;
+}
+.ProductCard_Rating {
+  margin: 20px 0;
+}
+.ProductCard_Price {
+  margin: 20px 0;
+}
+.ProductCard_button {
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #ffa430;
+  border: none;
+  transition: all 0.2 ease-in;
+}
+.ProductCard_button:focus,
+.ProductCard_button:active {
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .ProductCard_wrapper {
+    width: 45%;
+  }
+}
